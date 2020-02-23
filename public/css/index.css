@@ -1,0 +1,64 @@
+.wrap-title {
+  padding: 0;
+  background: #4F81BD;
+  border: 1px solid #4F81BD;
+  max-width: 50%;
+  margin: 20px 0 50px 0;
+}
+.wrap-title .title-block {
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+  color: white;
+  padding-left: 20%;
+  font-size: 24px;
+}
+.container-filials {
+  background-image: url('../images/apab_main_fon.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.container-filials .wrap-filials {
+  margin-top: 50px;
+}
+.container-filials .wrap-filials .filial-block {
+  margin-bottom: 10px;
+  background: #4F81BD;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+}
+.container-filials .wrap-filials .filial-block .block-img {
+  width: 150px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  padding: 0;
+}
+.container-filials .wrap-filials .filial-block .block-img img {
+  width: 100%;
+  height: 100%;
+}
+.container-filials .wrap-filials .filial-block .filial-content {
+  padding-left: 0;
+}
+.container-filials .wrap-filials .filial-block .filial-content .filial-name,
+.container-filials .wrap-filials .filial-block .filial-content .filial-stations,
+.container-filials .wrap-filials .filial-block .filial-content a {
+  color: white;
+}
+.container-filials .wrap-filials .filial-block .filial-content .filial-name {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.container-filials .wrap-filials .filial-block .filial-content .filial-stations {
+  font-size: 12px;
+}
+.container-filials .wrap-filials .filial-block .filial-content .filial-stations ul {
+  padding-left: 16px;
+}
+.container-filials .wrap-filials .filial-block .filial-content .filial-stations ul a:hover {
+  color: #cccccc;
+}
+/*# sourceMappingURL=index.css.map */

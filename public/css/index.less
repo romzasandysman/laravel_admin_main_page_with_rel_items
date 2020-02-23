@@ -1,0 +1,71 @@
+.wrap-title{
+    padding:0;
+    background: #4F81BD;
+    border: 1px solid #4F81BD;
+    max-width: 50%;
+
+    .title-block{
+        font-weight: bold;
+        font-style: italic;
+        font-family: sans-serif;
+        color: white;
+        padding-left: 20%;
+        font-size: 24px;
+    }
+    margin: 20px 0 50px 0;
+}
+.container-filials {
+    background-image: url('../images/apab_main_fon.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    .wrap-filials {
+        margin-top: 50px;
+        .filial-block{
+            margin-bottom: 10px;
+            background: #4F81BD;
+            border: 2px solid #FFFFFF;
+            border-radius: 10px;
+            display: flex;
+
+            .block-img{
+                width: 150px;
+                margin: 5px;
+                border-radius: 10px;
+                border: 2px solid #FFFFFF;
+                padding: 0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .filial-content {
+                padding-left: 0;
+                .filial-name, .filial-stations, a {
+                    color: white;
+                }
+
+                .filial-name {
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+
+                .filial-stations {
+                    font-size: 12px;
+
+                    ul{
+                        padding-left: 16px;
+                        a {
+                            &:hover {
+                                color: #cccccc;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
